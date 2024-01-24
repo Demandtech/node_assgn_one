@@ -18,11 +18,11 @@ module.exports = {
         res.write('You are using a GET METHOD on books');
         break;
       case 'PUT':
-        res.statusCode = 204;
+        res.statusCode = 200; //204
         res.write('You are using PUT METHOD on books');
         break;
       case 'DELETE':
-        res.statusCode = 204;
+        res.statusCode = 200; //204;
         res.write('You are using DELETE METHOD books');
         break;
       default:
@@ -39,11 +39,11 @@ module.exports = {
         res.write('You are using a GET METHOD on books/author');
         break;
       case 'PUT':
-        res.statusCode = 204;
+        res.statusCode = 200; //204;
         res.write('You are using PUT METHOD on books/author');
         break;
       case 'DELETE':
-        res.statusCode = 204;
+        res.statusCode = 200; //204;
         res.write('You are using DELETE METHOD books/author');
         break;
       default:
